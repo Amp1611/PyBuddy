@@ -26,7 +26,7 @@ PyBuddy offers multiple learning modules:
 
 2. Install the required dependencies:
    ```bash
-   pip install pandas
+   pip install pandas wxPython
    ```
 
 3. (Optional) Create a `riddles.csv` file with columns: `question`, `answer`, `hint` for the Riddles module. 
@@ -35,7 +35,7 @@ PyBuddy offers multiple learning modules:
 
 Run the chatbot:
 ```bash
-python CHATBOT. py
+python PyBuddy.py
 ```
 
 Follow the on-screen menu to select your desired learning activity. 
@@ -44,7 +44,7 @@ Follow the on-screen menu to select your desired learning activity.
 
 - Python 3.x
 - pandas
-- tkinter (usually included with Python)
+- wxPython
 
 ## Topics Covered
 
@@ -67,4 +67,4 @@ Follow the on-screen menu to select your desired learning activity.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
